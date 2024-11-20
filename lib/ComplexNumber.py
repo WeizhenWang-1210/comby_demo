@@ -45,7 +45,6 @@ class ComplexNumber:
         return new
 
     def real_part(self):
-        #showcase #3, adding property decorator
         return self.real
 
     def imaginary_part(self):
