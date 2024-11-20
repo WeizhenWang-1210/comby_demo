@@ -1,6 +1,4 @@
 import unittest
-
-
 class MyTestCase(unittest.TestCase):
     def test_add(self):
         from lib.ComplexNumber import ComplexNumber
