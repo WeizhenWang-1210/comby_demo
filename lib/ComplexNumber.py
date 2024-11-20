@@ -1,6 +1,6 @@
 from lib.util import substraction
 class ComplexNumber:
-    def __init__(self, imaginary, real):
+    def __init__(self, real, imaginary):
         #Bug #1, real and imaginary order is wrong
         #Fix, change init order and also change every invocation of the constructor
         #Showcase #2, refactoring variables.
